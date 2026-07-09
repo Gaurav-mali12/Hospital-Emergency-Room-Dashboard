@@ -171,19 +171,19 @@ Hospital-Emergency-Room-Dashboard/
 
 ## Consolidated View
 
-![Consolidated View](Images/Consolidated_View.png)
+![Consolidated View](images/consolidate_view.png)
 
 ---
 
 ## Patient Details
 
-![Patient Details](Images/Patient_Details.png)
+![Patient Details](images/Patients_detailes.png)
 
 ---
 
 ## Key Takeaways
 
-![Key Takeaways](Images/Key_Takeaways.png)
+![Key Takeaways](images/Key_Takeways.png)
 
 ---
 
