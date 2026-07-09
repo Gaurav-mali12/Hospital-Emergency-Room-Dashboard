@@ -165,25 +165,25 @@ Hospital-Emergency-Room-Dashboard/
 
 ## Monthly View
 
-(Add Screenshot)
+![Monthly View](images/monthly_view.png)
 
 ---
 
 ## Consolidated View
 
-(Add Screenshot)
+![Consolidated View](Images/Consolidated_View.png)
 
 ---
 
 ## Patient Details
 
-(Add Screenshot)
+![Patient Details](Images/Patient_Details.png)
 
 ---
 
 ## Key Takeaways
 
-(Add Screenshot)
+![Key Takeaways](Images/Key_Takeaways.png)
 
 ---
 
