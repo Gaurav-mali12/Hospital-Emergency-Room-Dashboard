@@ -1,38 +1,66 @@
 # 🏥 Hospital Emergency Room Dashboard | Power BI
 
-An interactive **Power BI dashboard** built to analyze Hospital Emergency Room (ER) operations and patient trends. The dashboard provides insights into patient flow, wait times, referrals, demographics, and operational performance to support data-driven decision making.
+<p align="center">
+  <img src="images/consolidate_view.png" alt="Hospital Emergency Room Dashboard" width="100%">
+</p>
+
+An interactive **Power BI Dashboard** developed to analyze Hospital Emergency Room (ER) operations and transform raw healthcare data into actionable business insights. The dashboard enables hospital administrators and stakeholders to monitor patient flow, waiting time, operational efficiency, referrals, and patient demographics through interactive visualizations.
 
 ---
 
-## 📌 Project Overview
+# 📌 Project Overview
 
-Emergency departments generate large volumes of patient data every day. This project transforms raw hospital emergency room data into meaningful business insights using Power BI.
+Emergency departments generate large volumes of patient data every day. This project demonstrates how Power BI can be used to clean, model, analyze, and visualize healthcare data to support data-driven decision making.
 
-The dashboard enables users to:
+The dashboard allows users to:
 
-- Monitor patient volume
-- Analyze average waiting time
-- Measure patient satisfaction
-- Track admission status
-- Identify referral patterns
-- Analyze patient demographics
-- Explore patient-level records
-- Generate business insights for decision making
+- 📊 Monitor patient volume
+- ⏱ Analyze average waiting time
+- ⭐ Measure patient satisfaction
+- 🏥 Track patient admissions
+- 👨‍⚕️ Analyze department referrals
+- 👥 Explore patient demographics
+- 📅 Identify peak hospital hours
+- 🔍 Drill down into patient-level records
+- 📈 Generate meaningful business insights
 
 ---
 
-## 🎯 Business Objectives
+# 🎯 Business Objectives
 
-The dashboard was developed to answer key business questions such as:
+The dashboard answers important business questions such as:
 
-- How many patients visit the ER?
+- How many patients visit the Emergency Room?
 - What is the average patient waiting time?
 - Are patients being seen within the target time?
-- Which departments receive the most referrals?
+- Which departments receive the highest referrals?
 - Which age groups visit the ER most frequently?
-- What are the busiest days and hours?
+- Which days and hours are the busiest?
 - What are the patient admission trends?
-- What insights can help improve hospital operations?
+- How satisfied are patients with the service?
+- What operational improvements can be made?
+
+---
+
+# ✨ Dashboard Features
+
+✔ Interactive Slicers
+
+✔ Dynamic KPI Cards
+
+✔ Monthly Performance Analysis
+
+✔ Consolidated Hospital Overview
+
+✔ Patient-Level Drill Down
+
+✔ Department Referral Analysis
+
+✔ Patient Demographics
+
+✔ Heatmap Analysis
+
+✔ Business Insights & Recommendations
 
 ---
 
@@ -40,70 +68,77 @@ The dashboard was developed to answer key business questions such as:
 
 ## 1️⃣ Monthly View
 
-Provides month-wise performance of the Emergency Room including:
+Provides a month-wise overview of Emergency Room performance.
+
+### Includes:
 
 - Total Patients
 - Average Wait Time
 - Patient Satisfaction Score
-- Patients Referred
+- Number of Referrals
 - Admission Status
 - Age Group Distribution
 - Gender Distribution
-- Department Referrals
-- Patient Race
+- Department Referral Analysis
+- Race Distribution
 - Day & Hour Heatmap
 
 ---
 
 ## 2️⃣ Consolidated View
 
-Provides an overall summary for the selected date range.
+Provides an overall summary for a selected date range.
 
-Features include:
+### Includes:
 
 - KPI Cards
 - Overall Patient Trends
 - Referral Analysis
 - Demographics
-- Waiting Time Analysis
-- Time-based Heatmap
+- Wait Time Analysis
+- Patient Distribution
 - Interactive Date Filters
+- Hospital Performance Summary
 
 ---
 
 ## 3️⃣ Patient Details
 
-A detailed patient-level report containing:
+Provides patient-level records for detailed analysis.
+
+### Fields Included
 
 - Patient ID
 - Patient Name
 - Gender
 - Age
 - Admission Date
-- Race
+- Patient Race
 - Wait Time
 - Department Referral
 - Admission Status
 
-Useful for detailed analysis and record filtering.
+Useful for filtering and detailed patient analysis.
 
 ---
 
 ## 4️⃣ Key Takeaways
 
-Summarizes important findings from the dashboard including:
+Summarizes important insights generated from the dashboard.
 
-- Patient wait time analysis
-- Satisfaction trends
-- Peak busy periods
-- Referral trends
-- Demographic insights
-- Admission statistics
-- Recommendations for operational improvements
+Includes:
+
+- Patient Wait Time Analysis
+- Satisfaction Trends
+- Peak Hospital Hours
+- Referral Analysis
+- Demographic Insights
+- Admission Statistics
+- Business Recommendations
 
 ---
 
-# 📈 Key KPIs
+# 📈 Key Performance Indicators (KPIs)
 
 - 👥 Total Patients
 - ⏱ Average Wait Time
@@ -113,75 +148,97 @@ Summarizes important findings from the dashboard including:
 - 🚑 Admission Status
 - 👨‍⚕️ Department Referrals
 - 👶 Age Group Distribution
-- 👨‍👩‍👧 Gender Distribution
+- 👨 Gender Distribution
 - 🌍 Race Distribution
+
+---
+
+# 🧮 DAX Measures Used
+
+The dashboard uses DAX measures to calculate key business metrics, including:
+
+- Total Patients
+- Average Wait Time
+- Average Patient Satisfaction Score
+- Number of Patients Referred
+- Patients Seen Within 30 Minutes
+- Admission Count
+- Admission Percentage
+- Dynamic KPI Calculations
 
 ---
 
 # 🛠 Tools & Technologies
 
-- Power BI Desktop
+- Microsoft Power BI Desktop
 - Power Query
-- DAX
+- DAX (Data Analysis Expressions)
 - Data Modeling
 - Data Cleaning
 - Data Transformation
-- Interactive Visualizations
+- Interactive Dashboard Design
+- Data Visualization
 
 ---
 
 # 📂 Dataset
 
-Source:
+**Source:** Kaggle
 
-Hospital Emergency Dataset by Xavier Berge on Kaggle
-
-Dataset Link:
+**Dataset:** Hospital Emergency Dataset by Xavier Berge
 
 https://www.kaggle.com/datasets/xavierberge/hospital-emergency-dataset
 
-The dataset contains anonymized Emergency Room patient records including demographics, admission details, referrals, waiting time, satisfaction score, and visit information. :contentReference[oaicite:0]{index=0}
+The dataset contains anonymized Emergency Room patient records, including:
+
+- Patient Demographics
+- Admission Details
+- Department Referrals
+- Patient Wait Time
+- Patient Satisfaction Score
+- Visit Information
 
 ---
 
 # 📁 Project Structure
 
 ```
-Hospital-Emergency-Room-Dashboard/
+Hospital-Emergency-Room-Dashboard
 │
-├── Dashboard.pbix
+├── Hospital_Emergency_Room_Dashboard.pbix
 ├── Hospital_ER_Data.csv
 ├── README.md
-├── Images/
-│   ├── Monthly_View.png
-│   ├── Consolidated_View.png
-│   ├── Patient_Details.png
-│   └── Key_Takeaways.png
+│
+└── images
+    ├── monthly_view.png
+    ├── consolidate_view.png
+    ├── Patients_detailes.png
+    └── Key_Takeways.png
 ```
 
 ---
 
 # 📷 Dashboard Preview
 
-## Monthly View
+## 🗓 Monthly View
 
 ![Monthly View](images/monthly_view.png)
 
 ---
 
-## Consolidated View
+## 📊 Consolidated View
 
 ![Consolidated View](images/consolidate_view.png)
 
 ---
 
-## Patient Details
+## 👥 Patient Details
 
 ![Patient Details](images/Patients_detailes.png)
 
 ---
 
-## Key Takeaways
+## 📌 Key Takeaways
 
 ![Key Takeaways](images/Key_Takeways.png)
 
@@ -189,28 +246,44 @@ Hospital-Emergency-Room-Dashboard/
 
 # 📚 Project Workflow
 
-- Requirement Gathering
-- Data Collection
-- Data Cleaning
-- Data Transformation
-- Data Modeling
-- DAX Calculations
-- Dashboard Design
-- Report Development
-- Insight Generation
+The dashboard was developed following a structured Business Intelligence workflow:
 
-This workflow follows the same structured project lifecycle used to build the dashboard. :contentReference[oaicite:1]{index=1}
+1. Requirement Gathering
+2. Business Requirement Analysis
+3. Data Collection
+4. Data Cleaning (Power Query)
+5. Data Transformation
+6. Data Modeling
+7. DAX Measure Creation
+8. Dashboard Design
+9. Report Development
+10. Insight Generation
+11. Business Recommendations
 
 ---
 
 # 💡 Key Insights
 
-- Average patient waiting time is approximately **35 minutes**.
-- Nearly half of the patients are admitted while the remaining are discharged.
-- General Practice receives the highest number of referrals.
-- Adults between **20–39 years** account for a significant portion of ER visits.
-- Patient traffic varies by day and hour, helping identify peak operational periods.
-- Patient satisfaction remains moderate, indicating opportunities to improve service quality.
+- The average patient waiting time is approximately **35 minutes**, indicating opportunities to improve patient flow.
+- Nearly **50%** of patients were admitted, while the remaining were treated and discharged.
+- **General Practice** received the highest number of referrals.
+- Adults aged **20–39 years** represented the largest patient group.
+- Patient visits vary significantly by **day and hour**, helping identify peak staffing requirements.
+- Patient satisfaction remained moderate, highlighting opportunities to improve service quality.
+
+---
+
+# 📈 Business Impact
+
+This dashboard helps hospital administrators to:
+
+- Monitor Emergency Room performance
+- Identify peak patient hours
+- Improve resource allocation
+- Reduce patient waiting time
+- Track referral patterns
+- Monitor patient satisfaction
+- Support data-driven healthcare decisions
 
 ---
 
@@ -218,27 +291,58 @@ This workflow follows the same structured project lifecycle used to build the da
 
 - Data Cleaning
 - Data Transformation
+- Power Query
 - Data Modeling
 - DAX Measures
-- Power Query
-- Interactive Dashboard Design
 - KPI Development
-- Healthcare Analytics
+- Interactive Dashboard Design
 - Business Intelligence
+- Healthcare Analytics
 - Data Visualization
 - Report Design
+- Insight Generation
+
+---
+
+# 📖 What I Learned
+
+During this project, I gained hands-on experience in:
+
+- Designing professional Power BI dashboards
+- Building interactive reports
+- Creating DAX measures
+- Transforming data using Power Query
+- Designing KPI cards
+- Building healthcare analytics reports
+- Converting raw data into business insights
+- Dashboard storytelling and visualization best practices
+
+---
+
+# 🔮 Future Improvements
+
+- Add Drill-through pages
+- Add Bookmark Navigation
+- Add Tooltip Pages
+- Optimize DAX Measures
+- Publish the dashboard using Power BI Service
+- Connect to a live SQL database for real-time reporting
 
 ---
 
 # 👨‍💻 Author
 
-**Gaurav Mali**
+## Gaurav Mali
 
-Aspiring Data Analyst
+**Aspiring Data Analyst**
 
-- SQL
+### Skills
+
 - Power BI
+- SQL
 - Python
 - Excel
 
-If you found this project useful, feel free to ⭐ the repository.
+📌 GitHub: https://github.com/Gaurav-mali12
+
+If you found this project useful, consider giving it a ⭐ to support the project.
